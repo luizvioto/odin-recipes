@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #e4fff5;
+}
+
+h1,
+h2,
+.home-button{
+    background-color: #785964;
+    color: #e4fff5;
+}
+
+h1 {
+    text-align: center;
+    padding: 8px;
+}
+
+h2{
+    text-align: left;
+    padding: 4px;
+}
+
+p,
+li{
+    font-size: 20px;
+}
+
+p{
+    padding: 4px;
+}
+
+.image,
+.recipe-list{
+    border: 16px groove #93B7BE;
+    border-radius: 5px;
+}
+
+.recipe-list{
+    background-color: #D5C7BC;
+    width: 400px;
+    margin: 50px auto;
+    list-style: none;
+    text-align: center;
+}
+
+.recipe-items{
+    padding: 8px;
+    border: 3px solid;
+    margin: 16px 12px;
+}
+
+.recipe-items:hover{
+    background-color: #93B7BE;
+}
+
+.recipe-items a{
+    text-decoration: none;
+    color: black;
+    display:block;
+}
+
+.image{
+    display: block;
+    margin: 30px auto;
+}
+
+.list{
+    padding: 8px 24px;
+}
+
+.list li{
+    padding: 4px;
+}
+
+.home-button{
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    width: 160px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 8px groove #93B7BE;
+    border-radius: 2px;
+}
+
+.home-button:hover{
+    background-color: #454545;
+}
+
+.home-button a{
+    text-decoration: none;
+    color:#e4fff5;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+}
